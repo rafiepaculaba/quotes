@@ -1,0 +1,56 @@
+#quote table
+quote_id
+author_id
+topic1
+topic2
+topic3
+quote
+date_created
+date_modified
+status
+
+#pic table
+author_id
+author_pic_id
+quote_pic
+topic1
+topic2
+topic3
+date_created
+date_modified
+status
+
+#
+quote_ani_id
+quote_ani
+author_id
+date_created
+date_modified
+status
+
+#author table
+author_id
+author_name
+born
+died
+work
+pic
+bio
+status
+
+blog_id
+blog_title
+blog_content
+date_created
+date_modified
+status
+
+topic_id
+topic_name
+status
+
+tag_id
+tag
+status
+
+quote of the day

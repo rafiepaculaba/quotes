@@ -6,10 +6,14 @@
         {% for author in authors %}
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src='{{ author.pic }}' class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ author.author_name }}</h5>
-                        <p class="card-text">{{ author.bio }}</p>
+                        <p class="card-text">{{ author.author_id }}</p>
+                        <p class="card-text">{{ author.born }}</p>
+                        <p class="card-text">{{ author.died }}</p>
+                        <p class="card-text">{{ author.work }}</p>
+                        <p class="card-text">{{ author.status }}</p>
                         <a href="#" class="btn btn-primary">{{ author.status }}</a>
                     </div>
                 </div>
